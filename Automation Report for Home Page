@@ -1,0 +1,28 @@
+Automation Report for Home Page
+
+Introduction:
+This report provides an overview of the automation efforts and results for the Home Page of the application. The goal of the automation is to verify the functionality of sorting values in the transaction table by clicking the AMOUNT header after a successful login.
+
+Automation Framework:
+For automating the Home Page, an appropriate automation framework was selected. The framework chosen was  cypress , a widely used tool for web application testing. cypress  allows for automating interactions with web elements, such as clicking buttons, retrieving data, and performing verifications.
+
+Test Case:
+The test case for sorting values in the transaction table by clicking the AMOUNT header was defined as follows:
+
+Sort Transaction Table by Amount:
+a. Login to the application using valid credentials.
+b. Navigate to the Home Page after successful login.
+c. Locate and click on the AMOUNT header in the transaction table.
+d. Retrieve the values in the AMOUNT column before and after sorting.
+e. Verify that the values are sorted in ascending or descending order, depending on the initial order.
+Automation Execution and Results:
+The defined test case was executed using the Cypress framework. The automation script interacted with the Home Page elements, such as the transaction table and the AMOUNT header. The results of the automation execution were recorded as follows:
+
+Login and Navigation: The automation script successfully logged into the application using valid credentials and navigated to the Home Page.
+
+Sorting by AMOUNT Header: The automation script located and clicked on the AMOUNT header in the transaction table.
+
+Retrieval and Verification of Sorted Values: The automation script retrieved the values in the AMOUNT column before and after sorting. It then performed a verification to ensure that the values were sorted correctly in either ascending or descending order, depending on the initial order.
+
+Conclusion:
+The automation efforts for the Home Page's sorting functionality of the transaction table by clicking the AMOUNT header were successful. Using Selenium WebDriver, the automation script logged into the application, navigated to the Home Page, and interacted with the necessary elements. The values in the AMOUNT column were retrieved and verified to be sorted correctly. The automation provides an efficient and reliable way to ensure the sorting functionality is working as expected on the Home Page.
